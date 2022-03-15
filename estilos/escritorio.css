@@ -1,0 +1,2072 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+@media screen and (min-width: 1400px) {
+    div#menu h6 {
+        color: var(--amarillo);
+        font-size: 6rem;
+        font-weight: bold;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+        margin-top: 10%;
+    }
+    div#menu .informacion {
+        margin-top: 2%;
+
+    }
+    .contenedor-global {
+        margin-top: 8rem;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .img-principal {
+        top: -20px;
+        max-width: 60rem;
+        left: -300px;
+    }
+
+    .contenedor {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        margin-top: 20rem;
+        background-color: rgba(0, 255, 255, 0);
+        /*border: 3px solid black;*/
+
+    }
+
+    .nosotros {
+        padding-top: 5%;
+        
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    body {
+        background-color: rgba(0, 225, 255, 0);
+    }
+}
+
+@media screen and (min-width: 1240px) and (max-width:1440px) {
+    .contenedor-global {
+        margin-top: 5rem;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+@media screen and (max-width: 1233px){
+    div#menu .informacion .logos {
+        
+        margin-top: 50%;
+        margin-left: 10%;
+
+    }
+
+    div#menu .informacion .logos img {
+        width: 10rem;
+        height: 5rem;
+        margin: 1rem;
+    }
+
+}
+
+@media  screen and (max-width: 1199px) {
+    .nosotros{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .nosotros p {
+        margin-left: 60px;
+        margin-right: 60px;
+        text-align: justify;
+    }
+
+      div#menu .informacion .logos {
+
+          margin-top: 60%;
+          margin-left: 10%;
+
+      }
+
+      div#menu .informacion .logos img {
+          width: 10rem;
+          height: 5rem;
+          margin: 1rem;
+      }
+}
+
+@media screen and (max-width: 1134px) {
+   .img-segunda {
+
+       display: none;
+
+   }
+  
+
+}
+
+@media screen and (max-width: 1199px) {
+    .nosotros {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .nosotros p {
+        margin-left: 60px;
+        margin-right: 60px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .valores {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    div#menu .informacion .logos {
+
+        margin-top: 80%;
+        margin-left: 10%;
+
+    }
+
+    div#menu .informacion .logos img {
+        width: 10rem;
+        height: 5rem;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .nosotros {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .nosotros p {
+        margin-left: 60px;
+        margin-right: 60px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .img-somos {
+        width: 28rem;
+        margin-top: 15rem;
+        margin-bottom: 15px;
+    }
+
+
+    .img-mision {
+        width: 12rem;
+        margin-top: 100rem;
+        margin-bottom: 15px;
+    }
+
+    .img-vision {
+        width: 12rem;
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .nosotros {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nosotros p {
+        margin-left: 60px;
+        margin-right: 60px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nosotros {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .nosotros p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 953px) {
+    #mailContacto{
+        margin-left: 0;
+    }
+    .productos {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-image: url("../assets/fondo_productos_grande.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+        padding: 10px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+    }
+
+    .productos .categorias {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /*background-color: rgba(134, 14, 14, 0.651);*/
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 20px;
+        z-index: 1;
+
+    }
+
+    .productos .categorias .categoria {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        /*background-image: url("../imagenes/productos/Cuello.jpg");*/
+        width: 100%;
+        /*background-color: turquoise;*/
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 20rem;
+
+        -webkit-box-align: end;
+
+        -ms-flex-align: end;
+
+        align-items: flex-end;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        overflow: hidden;
+        position: relative;
+        z-index: -1;
+        margin-top: 10px;
+
+    }
+
+    .productos .categorias .categoria .nombre {
+        height: 15%;
+        font-size: 1.3rem;
+    }
+
+    .productos .categorias .categoria .productos-menu {
+        font-size: 1rem;
+    }
+
+    .sucursales {
+        background-image: url("../assets/fondo_productos_4000.jpg");
+    }
+
+    .sucursales .direcciones {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: transparent;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+        width: 100%;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .sucursales .direcciones .direccion {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: transparent;
+        height: 30rem;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .sucursales .direcciones .direccion .dir-desc {
+        font-size: 1.1rem;
+        bottom: 3rem;
+    }
+
+    .contacto .header h6 {
+        font-size: 2rem;
+        color: #afaeae;
+        width: 80%;
+        text-align: center;
+    }
+
+    .contacto .body {
+        background-color: rgba(0, 0, 255, 0);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 90%;
+        padding-left: 0%;
+
+    }
+
+    .contacto .body .formulario {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: rgba(0, 255, 255, 0);
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contacto .body .informacion {
+        background-color: #d30f0f00;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: 8px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: white;
+        margin-left: 0;
+    }
+
+    .contacto .body .informacion p:first-child {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        color: black;
+
+    }
+
+    .contacto .body .informacion p {
+        margin-top: 5px;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .icon-whats {
+
+        background-color: transparent;
+        -webkit-animation: tiembla 2s infinite;
+        animation: tiembla 2s infinite;
+        cursor: pointer;
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+        z-index: 10;
+    }
+
+    .icon-whats a img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contenedor-modal .imagen {
+        width: 50%;
+    }
+
+    .contenedor-modal .imagen img {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .contenedor-modal .descripcion {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 30%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .contenedor-modal .descripcion p {
+        font-size: 1.1rem;
+        margin-top: 10px;
+        /*width: 280px;*/
+    }
+
+    h4 {
+        font-size: 1.3rem;
+        margin-top: 25px;
+    }
+
+    
+    /*table {
+        right: 30px;
+    }*/
+
+
+
+}
+
+@media screen and (max-width: 744px){
+
+    .contacto{
+        background-image: url("../assets/fondo_productos_2000.jpg");
+        height: 55rem;
+    }
+    .contacto .body {
+        background-color: rgba(15, 15, 160, 0);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 90%;
+        padding-left: 0%;
+
+
+    }
+    .footer{
+        margin-top: 0%;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 890px) {
+    div#menu h6 {
+        font-size: 4.5rem;
+    }
+
+
+    div#menu .informacion .sociales .fb .text-fb a {
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+    }
+
+}
+
+
+@media screen and (max-width: 810px) {
+    .nosotros p {
+        font-size: 1.2rem;
+
+    }
+
+    .nosotros p:last-child {
+        margin-bottom: 2rem !important;
+    }
+
+    .img-somos {
+        width: 22rem;
+        margin-top: 5rem;
+        margin-bottom: 15px;
+    }
+
+
+    .img-mision {
+        width: 12rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .img-vision {
+        width: 12rem;
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+    }
+
+
+
+    .icon-whats {
+
+
+        bottom: 40px;
+        right: 10px;
+    }
+
+    .icon-whats a img {
+        width: 50px;
+        height: 50px;
+    }
+
+
+}
+
+@media screen and (max-width: 820px) {
+
+    .contenedor-modal .imagen {
+        width: 50%;
+    }
+
+    .contenedor-modal .imagen img {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .contenedor-modal .descripcion {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 30%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .contenedor-modal .descripcion p {
+        font-size: 1.1rem;
+        margin-top: 10px;
+       /* width: 280px;*/
+    }
+
+    h4 {
+        font-size: 1.3rem;
+        margin-top: 25px;
+    }
+
+     div#menu .informacion .logos {
+
+        margin-top: 80%;
+        margin-left: 0%;
+
+    }
+
+    div#menu .informacion .logos img {
+        width: 8rem;
+        height: 4rem;
+        margin: 1rem;
+    }
+
+
+    /*table {
+        right: 30px;
+    }*/
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+
+    .productos .header h3 {
+        font-size: 3rem;
+    }
+
+    .productos .header h6 {
+        font-size: 1.5rem;
+    }
+
+    /*.sucursales .header {
+       width: 20%;
+   }*/
+   .valores-header .header h3 {
+       font-size: 3rem;
+
+   }
+
+    .sucursales .header h3 {
+        font-size: 3rem;
+    }
+
+    .contacto .header h3 {
+        font-size: 3rem;
+        text-align: center;
+        background-color: rgba(0, 255, 255, 0);
+        color: var(--naranja);
+    }
+
+    .contacto .header h6 {
+        font-size: 1.5rem;
+        color: #afaeae;
+        width: 80%;
+        text-align: center;
+    }
+
+    .seccion-blanca {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 60%;
+        height: 10%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 0%;
+        margin-right: 30px;
+
+    }
+
+
+    .seccion-blanca-items {
+        margin-right: 27rem;
+    }
+
+    .titulo-principal {
+        font-size: 3rem;
+
+    }
+
+    .contacto .body .informacion p:first-child {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        color: black;
+
+    }
+
+    .contacto .body .informacion p {
+        margin-top: 5px;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 735px) {
+
+    .contenedor-modal .imagen {
+        width: 45%;
+    }
+
+    .contenedor-modal .imagen img {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .contenedor-modal .descripcion {
+        background-color: rgb(255, 255, 255);
+        width: 30%;
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 2.1rem;
+    }
+
+    .contenedor-modal .descripcion p {
+        font-size: 1.1rem;
+        margin-top: 10px;
+       /* width: 280px;*/
+    }
+
+    h4 {
+        font-size: 1.2rem;
+        margin-top: 25px;
+    }
+
+    /*.contenedor-modal .descripcion .rangoPeso {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 30%;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+    }*/
+
+
+    /*table {
+        right: 5px;
+    }*/
+
+   /* th {
+        
+        font-size: 1.2rem;
+       
+    }*/
+    #txtPesoCaja{
+        width: 200px;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 650px) and (max-width: 768px) {
+    /*body {
+        background-color: rgb(0, 255, 0);
+    }*/
+
+
+    .nosotros{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    
+
+    .nosotros p {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+
+    .nosotros p:last-child {
+        margin-bottom: 1rem !important;
+    }
+
+    .img-somos {
+        width: 15rem;
+        margin-top: 6rem;
+        margin-bottom: 15px;
+    }
+
+    .img-mision {
+        width: 10rem;
+        margin-top: 8%;
+        margin-bottom: 15px;
+    }
+
+    .img-vision {
+        width: 10rem;
+        margin-bottom: 15px;
+        margin-top: 8%;
+
+    }
+
+    div#menu h6 {
+        font-size: 4rem;
+    }
+
+
+    div#menu .informacion .sociales .fb .text-fb a {
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+    }
+
+    div#menu .informacion {
+
+        margin-left: 10px;
+
+    }
+
+    /*.navbar-img {
+        width: 10rem;
+        height: 5rem;
+       
+
+    }*/
+
+
+}
+
+@media screen and (min-width: 381px) and (max-width: 408px){
+
+    .seccion-blanca {
+        margin-top: 0%;
+        margin-right: 60px;
+        background-color: rgba(0, 255, 255, 0);
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 649px) {
+
+    .nosotros{
+        background-image: url("../assets/curva_fondo_5000.png");
+
+    }
+    .nosotros p {
+        font-size: 1rem;
+        line-height: 1rem;
+
+
+    }
+
+    .nosotros p:last-child {
+        margin-bottom: 1rem !important;
+    }
+
+    .img-somos {
+        width: 15rem;
+        margin-top: 6rem;
+        margin-bottom: 15px;
+    }
+
+    .img-mision {
+        width: 10rem;
+        margin-top: 8%;
+        margin-bottom: 15px;
+    }
+
+    .img-vision {
+        width: 10rem;
+        margin-bottom: 15px;
+        margin-top: 8%;
+
+    }
+
+
+
+   /* .img-somos {
+        width: 10rem;
+        margin-top: 3.5rem;
+        margin-bottom: 15px;
+    }
+
+    .img-mision {
+        width: 7rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-vision {
+        width: 7rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+    }*/
+
+    .contacto .header h6 {
+        font-size: 1.3rem;
+        color: #afaeae;
+        width: 60%;
+        text-align: center;
+    }
+
+
+    .icon-whats a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    div#menu h6 {
+        font-size: 3.5rem;
+    }
+
+
+    div#menu .informacion .sociales .fb .text-fb a {
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+    }
+
+    div#menu .informacion {
+
+        margin-left: 5px;
+
+    }
+
+    /*.navbar-img {
+        width: 12rem;
+        height: 5rem;
+        margin-left: 10px;
+        -o-object-fit: contain;
+        object-fit: contain;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        -webkit-animation-name: log-anim;
+        animation-name: log-anim;
+        -webkit-animation-timing-function: ease;
+        animation-timing-function: ease;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+    }*/
+
+}
+
+
+@media screen and (max-width: 585px) {
+
+    .contenedor-modal .imagen {
+        width: 60%;
+    }
+
+    .contenedor-modal .imagen img {
+        width: 12rem;
+        height: 8rem;
+    }
+
+    .contenedor-modal .descripcion {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding: 10px;
+        height: 10rem;
+    }
+
+    .contenedor-modal .descripcion h3 {
+        font-size: 2.1rem;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+
+    .contenedor-modal .descripcion p {
+        font-size: 1.1rem;
+        margin-top: 5px;
+        /*width: 280px;*/
+    }
+
+    .contenedor-modal .descripcion h4 {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+    .contenedor-modal .descripcion .rangoPeso {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 60%;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+        left: 30%
+    }
+
+
+    /*table {
+        right: 20%;
+    }*/
+
+    th {
+
+        font-size: 1.1rem;
+
+    }
+    td {
+
+        font-size: 1.1rem;
+
+    }
+
+
+    #txtPesoCaja {
+        width: 100%;
+    }
+
+    /*.navbar-img {
+        width: 8rem;
+        height: 5rem;
+  
+    }*/
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .productos {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        /*background-color: rgb(233, 233, 233);
+    background-image: url("../chicken-mart-pagina/fondo4.png"), url("../chicken-mart-pagina/fondo3.png");*/
+        background-image: url("../assets/fondo_productos_4000.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        /*background-position: left, right;*/
+        width: 100%;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+        padding: 10px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /*border-top: 10px solid var(--naranja);*/
+
+    }
+
+    div#menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    /*div#menu .informacion {
+        margin-top: -2rem;
+        margin-left: 0px;
+
+    }
+
+    div#menu h6 {
+        font-size: 2.2rem;
+    }
+*/
+    div#menu h6 {
+        font-size: 4.8rem;
+    }
+
+    div#menu .informacion .sociales {
+        background-color: rgba(0, 255, 255, 0);
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-top: 10%;
+        margin-left: -20px;
+    }
+
+    div#menu .informacion .sociales .fb .text-fb a {
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+    }
+
+      div#menu .informacion .logos {
+
+          margin-top: 0%;
+          margin-right: 0%;
+
+      }
+
+      div#menu .informacion .logos img {
+          width: 8rem;
+          height: 4rem;
+          margin: 1rem;
+         
+      }
+
+
+}
+
+
+@media screen and (max-width: 485px) {
+
+   
+
+    .contenedor-modal .descripcion .rangoPeso{
+        left: 0%;
+        right: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.5%;
+    }
+
+    .contenedor-modal{
+        flex-direction: column;
+	    height: 500px;
+
+    }
+
+    #closeModal {
+        right: 7rem;
+        bottom: 0px;
+        top: 20px;
+
+    }
+
+    .contenedor-modal .imagen {
+        width: 100%;
+        height: 45%;
+    }
+
+    .contenedor-modal .imagen img {
+        width: 17rem;
+        height: 12rem;
+    }
+
+    .contenedor-modal .descripcion {
+        background-color: rgb(253, 253, 253);
+        width: 100%;
+        padding: 10px;
+        height: 10rem;
+    }
+
+    .contenedor-modal .descripcion h3 {
+        font-size: 2.1rem;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+    }
+
+    .contenedor-modal .descripcion p {
+        font-size: 0.8rem;
+        margin-top: 5px;
+        width: 280px;
+    }
+
+    .contenedor-modal .descripcion h4 {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+    .contenedor-modal .descripcion .rangoPeso {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 50%;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+    }
+
+
+    /*table {
+        right: 5%;
+    }
+*/
+    th {
+
+        font-size: 1rem;
+
+    }
+
+    td {
+        padding: 1px;
+        font-size: 0.9rem;
+      
+
+    }
+
+    th{
+        width: 100rem;
+    }
+
+
+    #txtPesoCaja {
+        width: 20%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 470px) {
+
+     .seccion-blanca {
+         margin-top: 0%;
+         margin-right: 60px;
+         background-color: rgba(0, 255, 255, 0);
+     }
+    .productos .header h3 {
+        font-size: 2rem;
+        text-align: center;
+        background-color: rgba(0, 255, 255, 0);
+        color: var(--naranja);
+    }
+
+    .productos .header h6 {
+        font-size: 1rem;
+        color: #afaeae;
+    }
+
+    .sucursales .header {
+        width: 20%;
+    }
+
+    .sucursales .header h3 {
+        font-size: 3rem;
+    }
+
+    .sucursales .direcciones .direccion .dir-desc {
+        position: absolute;
+        font-size: 1rem;
+        bottom: 2.5rem;
+        text-align: center;
+    }
+
+    div#menu h6 {
+        font-size: 2.2rem;
+        color: black;
+    }
+
+
+    div#menu .informacion .sociales .fb .text-fb a {
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    div#menu .informacion {
+        margin-top: -2rem;
+        margin-left: 0px;
+
+    }
+
+   /*.navbar-img {
+       width: 8rem;
+       height: 5rem;
+
+   }*/
+
+}
+
+@media screen and (min-width: 370px) and (max-width: 424px) {
+
+    .nosotros{
+        background-image: url("../assets/curva_fondo_5000.png");
+
+    }
+
+    .nosotros p {
+        font-size: 1rem;
+        line-height: 1rem;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .nosotros p:last-child {
+        margin-bottom: 5px !important;
+    }
+
+     .img-somos {
+         width: 15rem;
+         margin-top: 5rem;
+         margin-bottom: 15px;
+     }
+
+     .img-mision {
+         width: 7rem;
+         margin-top: 8%;
+         margin-bottom: 15px;
+     }
+
+     .img-vision {
+         width: 7rem;
+         margin-bottom: 15px;
+         margin-top: 8%;
+
+     }
+
+
+
+    /*.img-somos {
+        width: 10rem;
+        margin-top: 3.5rem;
+        margin-bottom: 15px;
+    }
+
+    .img-mision {
+        width: 7rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-vision {
+        width: 7rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+    }*/
+
+    .contacto .header {
+        margin-top: 1.5rem;
+    }
+
+    .contacto .header h3 {
+        font-size: 2rem;
+
+    }
+
+    .contacto .header h6 {
+        font-size: 1.1rem;
+        color: #afaeae;
+        width: 55%;
+        text-align: center;
+    }
+
+    div#menu h6 {
+        font-size: 3.2rem;
+    }
+
+
+    div#menu .informacion .sociales .fb .text-fb a {
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+    }
+
+    div#menu .informacion {
+
+        margin-left: 5px;
+
+    }
+
+   .navbar-img {
+        width:10rem;
+        height: 5rem;
+
+    }
+    .nosotros {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
+
+@media screen and (max-width:393px) {
+    .sucursales {
+        background-image: url("../assets/fondo_productos_8000.jpg");
+    }
+
+    .sucursales .direcciones {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: transparent;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+        width: 100%;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .sucursales .direcciones .direccion {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: transparent;
+        height: 30rem;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .sucursales .direcciones .direccion .dir-desc {
+        font-size: 1.1rem;
+        bottom: 3rem;
+    }
+
+    .sucursales .direcciones .direccion .nombre {
+        background-color: var(--naranja);
+        height: 10%;
+        width: 100%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-weight: bold;
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 10px;
+        z-index: 2;
+        cursor: pointer;
+        position: absolute;
+        bottom: 8rem;
+
+    }
+
+    div#menu h6 {
+        font-size: 3.2rem;
+    }
+
+
+    div#menu .informacion .sociales .fb .text-fb a {
+        font-size: 1.1rem;
+        color: white;
+        text-decoration: none;
+    }
+
+    div#menu .informacion {
+
+        margin-left: 0px;
+
+    }
+
+   /*.navbar-img {
+       width: 7rem;
+       height: 5rem;
+
+   }*/
+
+}
+
+
+@media screen and (min-width: 315px) and (max-width: 369px){
+     .nosotros {
+         padding-left: 30px;
+         padding-right: 30px;
+     }
+     .contacto .body{
+        padding-left: 0%;
+     }
+     .productos .header h3 {
+         font-size: 2.5rem;
+         width:  200px;
+     }
+
+     .productos .header h6 {
+         font-size: 1rem;
+         width: 300px;
+         text-align: center;
+
+     }
+
+}
+
+@media screen and (max-width: 380px){
+    .seccion-blanca {
+        margin-top: 0%;
+        margin-right: 50px;
+        background-color: rgba(0, 255, 255, 0);
+    }
+}
+
+@media screen and (max-width: 350px){
+    .contenedor-modal .descripcion .rangoPeso {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 60%;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+    }
+
+}
+
+@media screen and (max-width: 330px){
+    .seccion-blanca-items {
+        margin-right: 27rem;
+    }
+
+    .titulo-principal {
+        font-size: 2.5rem;
+
+    }
+
+    .seccion-blanca {
+    margin-top: 0%;
+    margin-right: 50px;
+    background-color: rgba(0, 255, 255, 0);
+    }
+}
+
+@media screen and (max-width: 314px) {
+    .nosotros {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .nosotros {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 369px) {
+    
+    .nosotros p {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .nosotros p:last-child {
+        margin-bottom: 5px !important;
+    }
+
+
+
+    .img-somos {
+        width: 8rem;
+        margin-top: 3.5rem;
+        margin-bottom: 10px;
+    }
+
+    .img-mision {
+        width: 5rem;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .img-vision {
+        width: 5rem;
+        margin-bottom: 5px;
+        margin-top: 10px;
+
+    }
+
+    .contacto .header {
+        margin-top: 1.5rem;
+    }
+
+    .contacto .header h3 {
+        font-size: 2rem;
+
+    }
+
+    .contacto .header h6 {
+        font-size: 0.8rem;
+        width: 300px;
+
+    }
+    .contacto .body{
+        padding-left: 0%;
+
+    }
+    .contacto .body .formulario {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: rgba(0, 255, 255, 0);
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .contacto .body .informacion {
+        background-color: #8d101000;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: 8px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: white;
+        margin-left: 0;
+
+    }
+
+    .contacto .body .informacion p:first-child {
+        margin-top: 20px;
+        font-size: 1rem;
+        color: black;
+
+    }
+
+    .contacto .body .informacion p {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: black;
+    }
+
+    /*.navbar-img {
+        width: 7rem;
+        height: 5rem;
+
+    }*/
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+
+    .imagen-valor {
+        margin-left: 5px;
+    }
+
+    .imagen-valor .img-h {
+        width: 3rem;
+
+    }
+
+    .imagen-valor .img-cal {
+        width: 2.5rem;
+
+    }
+
+    .imagen-valor .img-comp {
+        width: 3rem;
+
+    }
+
+    .imagen-valor .img-conf {
+        width: 2rem;
+
+    }
+
+    .imagen-valor .img-leal {
+        width: 3rem;
+
+    }
+
+    .desc-valor {
+        background-color: rgb(255, 255, 255);
+        margin-left: 20px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .desc-valor h6 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .lblNombre {
+        font-size: 1.1rem !important;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+        margin-top: 20px;
+    }
+
+    .lblCorreo {
+        font-size: 1.1rem;
+    }
+
+    .lblTel {
+        font-size: 1.1rem;
+    }
+
+    .lblMensaje {
+        font-size: 1.1rem;
+
+    }
+
+    .footer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: var(--naranja);
+        width: 100%;
+        height: 3rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    /*.footer p {
+        color: white;
+        font-size: 1.1rem;
+    }
+
+    .footer p a {
+        font-weight: 900;
+        color: white;
+        text-decoration: none;
+    }*/
+    div#menu h6 {
+        font-size: 4.5rem;
+    }
+
+    div#menu .informacion .sociales{
+       /* background-color: aqua;*/
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-top: 10%;
+        margin-left: -20px;
+    }
+
+    div#menu .informacion .sociales .fb .text-fb a {
+        font-size: 1.1rem;
+        color: white;
+        text-decoration: none;
+    }
+    
+  
+}
+
+@media screen and (max-width: 450px) {
+    .contacto {
+        height: 50rem;
+    }
+      .contacto .body .informacion p:first-child {
+          margin-top: 5px;
+          font-size: 1rem;
+          color: black;
+
+      }
+
+      .contacto .body .informacion p {
+          margin-top: 5px;
+          font-size: 1rem;
+          color: black;
+      }
+      .footer {
+          margin-top: 0%;
+      }
+
+      .contenedor-modal{
+          height: 510px;
+      }
+    
+
+}
+
+@media screen and (max-width: 445px){
+    div#menu h6 {
+        font-size: 4.2rem;
+    }
+
+
+    div#menu .informacion .sociales {
+        background-color: rgba(0, 255, 255, 0);
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: -20px;
+    }
+
+    div#menu .informacion .sociales .fb .text-fb a {
+        font-size: 1.1rem;
+        color: white;
+        text-decoration: none;
+        width: 5%;
+        
+    }
+}
+
+@media screen and (max-width: 400px){
+    div#menu h6 {
+        font-size: 4.3em;
+    }
+
+    div#menu .informacion .sociales {
+        background-color: rgba(0, 255, 255, 0);
+        -ms-flex-direction: oolumn;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: -20px;
+    }
+
+    div#menu .informacion .sociales .fb .text-fb a {
+        font-size: 1.1rem;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 370px){
+    div#menu h6 {
+        font-size: 3.5em;
+    }
+     div#menu .informacion .logos {
+
+         margin-top: 5%;
+         margin-left: -5%;
+
+     }
+
+     div#menu .informacion .logos img {
+         width: 6rem;
+         height: 3rem;
+         margin: 0.5%;
+
+     }
+
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-img {
+        margin: 5px;
+    }
+    div#menu h6 {
+        font-size: 3em;
+    }
+}
+/*
+@media screen and (max-width: 314px){
+    .productos .header h3 {
+         font-size: 1.5rem;
+         width:  200px;
+     }
+
+     .productos .header h6 {
+         font-size: 1rem;
+         width: 300px;
+         text-align: center;
+
+     }
+
+     .productos .header h3 {
+         font-size: 2.5rem;
+         width: 200px;
+     }
+
+     .productos .header h6 {
+         font-size: 1rem;
+         width: 300px;
+         text-align: center;
+
+     }
+}*/
+
+@media screen and (max-width: 600px) {
+    .img-segunda {
+
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 299px) {
+    .contacto .header {
+        margin-top: 1.5rem;
+    }
+
+    .contacto .header h3 {
+        font-size: 1.5rem;
+        width: 100%;
+
+    }
+
+    .contacto .header h6 {
+        font-size: 0.8rem;
+        width: 250px;
+
+    }
+
+    .contacto .body {
+        padding-left: 0%;
+    }
+
+    .contacto .body .informacion p:first-child {
+        margin-top: 20px;
+        font-size: 0.8rem;
+        color: black;
+
+    }
+
+    .productos .header h3 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .productos .header h6 {
+        font-size: 1rem;
+        width: 200px;
+        text-align: center;
+
+    }
+
+    .nosotros p {
+        font-size: 0.5rem;
+        margin-left: 5px;
+        margin-right: 5px;
+        line-height: 0.8rem;
+
+
+    }
+
+    .nosotros p:last-child {
+        margin-bottom: 0px !important;
+    }
+
+
+
+    .img-somos {
+        width: 5rem;
+        margin-top: 1.3rem;
+        margin-bottom: 5px;
+    }
+
+    .img-mision {
+        width: 3rem;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .img-vision {
+        width: 3rem;
+        margin-bottom: 5px;
+        margin-top: 5px;
+
+    }
+
+    .valores {
+        padding-top: 2%;
+        margin: auto;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+     .valor {
+         width: 100%;
+         margin: 0;
+         margin-top: 15px;
+
+     }
+
+     .desc-valor {
+         background-color: rgb(255, 255, 255);
+         margin-left: 0px;
+         width: 100%;
+         padding: 20px;
+         height: max-content;
+      
+     }
+
+     .desc-valor h6 {
+         font-size: 1rem;
+         font-weight: bold;
+         margin-bottom: 10px;
+     }
+
+     .desc-valor p {
+         font-size: 0.5rem;
+     }
+     .sucursales .header{
+         width: 100%;
+     }
+
+     .sucursales .header h3 {
+        font-size: 1.5rem;
+        
+
+     }
+     .valores {
+         margin-top: -2rem;
+     }
+     .valores-header .header h3 {
+         font-size: 1.5rem;
+
+     }
+
+     
+     .img-principal {
+         left: -600px;
+     }
+
+     .img-segunda {
+        
+         display: none;
+
+     }
+
+}

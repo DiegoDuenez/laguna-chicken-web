@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --naranja: #D76D2A;
+    --amarillo: #fad25a;
+}
+
+
+body {
+    font-family: 'Ubuntu',
+        sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    /*position: sticky;
+    top: -45px;*/
+    
+}
+
+nav .mainMenu{
+    display: flex;
+    list-style: none;
+    background-color: rgba(0, 255, 255, 0);
+    padding: 15px;
+    align-items: center;
+    margin-right: 90px;
+
+}
+
+nav .mainMenu li a {
+    display: inline-block;
+    margin: 10px;    
+    text-decoration: none;
+    color: white;
+}
+
+nav .openMenu{
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+    color: #fad25a;
+    font-size: 3rem;
+}
+
+nav .mainMenu .closeMenu , .icons li{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+nav .logo{
+    margin: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+@media(max-width: 2500px){
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--naranja);
+        transition: top 1s ease;
+        display: none;
+        margin-right: 0;
+
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: var(--amarillo);
+
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .mainMenu li{
+        margin-bottom: 10px;
+    }
+
+    .icons li {
+        display: inline-block;
+        padding: 12px;
+    }
+
+    .pdf{
+        margin-right: 0;
+    }
+}
